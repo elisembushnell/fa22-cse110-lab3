@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meeting Minutes</title>
+    <meta name = "keywords" content = "Meeting Info, Meeting Details" />
+    <meta name = "description" content = "Detailing all meeting info" />
+    <link rel="icon" type="x-icon" href="/favicon.jpeg">
+  </head>
+  <body>
+    <header>
+        <h1>Group 33 Meeting One Notes</h1>
+        <h2>Lots of brainstorming and clarification.</h2>
+        <h2>October 1st, 2022</h2>
+    </header>
+    <nav>
+        <h4>
+            <ol>
+                <li><a href="#attendance_list">Attendance List</a></li>
+                <li><a href="#meeting_agenda">Meeting Agenda</a></li>
+                <li><a href="#unfinished_business">Unfinished Business</a></li>
+                <li><a href="#new_business">New Business</a></li>
+                <li><a href="#pictures">Pictures</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#audio">Audio</a></li>
+                <li><a href="#comments_questions_concerns">Comments, Questions & Concerns</a></li>
+            </ol>
+        </h4>
+    </nav>
+    <main>
+        <section>
+            <h3><a id="attendance_list">Attendance List</a></h3>
+            <h4>
+                <ul>
+                    <li>James Smith</li>
+                    <li>Maria Garcia</li>
+                    <li>Robert Johnson</li>
+                    <li>Emma Brown</li>
+                    <li>Sophia Peters</li>
+                    <li>Jacob Scott</li>
+                </ul>
+            </h4>
+        </section>
+        <section>
+            <h3><a id="meeting_agenda">Meeting Agenda</a></h3>
+            <h4>
+                <ul>
+                    <li>Project Overview</li>
+                    <li>Individual Roles</li>
+                    <li>Project Timeline</li>
+                    <li>Project Details</li>
+                    <li>Discussion</li>
+                </ul>
+            </h4>
+        </section>
+        <section>
+            <h3><a id="unfinished_business">Unfinished Business</a></h3>
+            <p>We discussed the wrap-up of our most recent project, <b>Dog Walker</b>.
+                The project itself is completed, but we have not gone ahead with the rollout.
+                The plan as of now is to go <strong>early availabilty</strong> first, and eventually
+                general availabilty.
+                <br>
+                We hope to go EA within the next <i>two</i> weeks, but have not gotten <em>confirmation</em> yet.</p>
+        </section>
+        <section>
+            <h3><a id="new_business">New Business</a></h3>
+            <p>We went over our new project, <b>Good Dog!</b> which will consist of an app
+                that assists users in teaching <strong>their dof tricks</strong>.
+                <br>
+                We still have to assign <i>Emma</i> a part of the project to tackle, which should happen within
+                the next week.</p>
+        </section>
+        <div>
+            <h3><a id="pictures">Pictures</a></h3>
+            <img src="lab-two-image.jpg"
+            alt="Dog">
+        </div>
+        <div>
+            <h3><a id="video">Video</a></h3>
+            <video controls width="250">
+                <source src="lab-two-video.mov">
+            </video>
+            <details>
+                <summary>The struggle of dog training!</summary>
+                As our project involves streamilining the process training your dog, we watched some
+                videos that capture the struggle. 
+            </details>
+        </div>
+        <div>
+            <h3><a id="audio">Audio</a></h3>
+            <h1>
+            <audio controls
+                src="lab-two-audio.m4a">
+            </audio>
+            </h1>
+        </div>
+        <span>
+            <h3><a id="comments_questions_concerns">Comments, Questions & Concerns</a></h3>
+            <form>
+                <fieldset>
+                    <legend>Do you have a question, comment, or concern regarding the project?</legend>
+                    <input type="radio" id="question">
+                    <label for="question">Question</label>
+                    <input type="radio" id="comment">
+                    <label for="comment">Comment</label>
+                    <input type="radio" id="concern">
+                    <label for="concern">Concern</label>
+                </fieldset>
+                <label for="input">What did you want to share?</label>
+                <input type="text" id="input">
+                <br>
+                <fieldset>
+                    <legend>How urgent is your input?></legend>
+                    <input type="checkbox" id="urgency">
+                    <label for="urgency">Extremely  urgent</label>
+                    <input type="checkbox" id="urgency">
+                    <label for="urgency">Somewhat urgent</label>
+                    <input type="checkbox" id="urgency">
+                    <label for="urgency">Not urgent</label>
+                </fieldset>
+                <input type="date" id="timeline">
+                <label for="timeline">When do you need this input addressed by?</label>
+                <br>
+                <label for="input-type"></label>
+                <input list="input-type">
+                <datalist id="input-type">
+                    <option value="Front end project details">
+                    <option value="Back end project details">
+                    <option value="Project timeline">
+                    <option value="Project Functionality">
+                    <option value="Project Scope">
+                </datalist>
+                <br>
+                <label for="details">Anything else you wanted to include?</label>
+                <textarea id="details" rows="5" cols="33">
+                </textarea>
+                <label for="relation">What is your involvement with the project?</label>
+                <select id="relation">
+                    <option value="team">Project team member</option>
+                    <option value="manager">Project manager</option>
+                    <option value="assisting-team">Project assiting team</option>
+                    <option value="curious">Just curious, not involved</option>
+                </select>
+                <button type="button">Submit</button>
+            </form>
+        </span>
+    </main>
+    <footer>
+        <p>© Group 33 CSE 110 2022</p>
+    </footer>
+  </body>
+</html>
