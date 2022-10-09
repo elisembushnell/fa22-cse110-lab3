@@ -4,7 +4,7 @@
     <title>Meeting Minutes</title>
     <meta name = "keywords" content = "Meeting Info, Meeting Details" />
     <meta name = "description" content = "Detailing all meeting info" />
-    <link rel="icon" type="x-icon" href="favicon.ico">
+    <link rel="icon" type="jpg" href="favicon.jpg">
   </head>
   <body>
     <header>
@@ -13,51 +13,45 @@
         <h2>October 1st, 2022</h2>
     </header>
     <nav>
-        <h4>
-            <ol>
-                <li><a href="#attendance_list">Attendance List</a></li>
-                <li><a href="#meeting_agenda">Meeting Agenda</a></li>
-                <li><a href="#unfinished_business">Unfinished Business</a></li>
-                <li><a href="#new_business">New Business</a></li>
-                <li><a href="#pictures">Pictures</a></li>
-                <li><a href="#video">Video</a></li>
-                <li><a href="#audio">Audio</a></li>
-                <li><a href="#comments_questions_concerns">Comments, Questions & Concerns</a></li>
-            </ol>
-        </h4>
+        <ol>
+            <li><a href="#attendance_list">Attendance List</a></li>
+            <li><a href="#meeting_agenda">Meeting Agenda</a></li>
+            <li><a href="#unfinished_business">Unfinished Business</a></li>
+            <li><a href="#new_business">New Business</a></li>
+            <li><a href="#pictures">Pictures</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#audio">Audio</a></li>
+            <li><a href="#comments_questions_concerns">Comments, Questions & Concerns</a></li>
+        </ol>
     </nav>
     <main>
         <section>
             <h3><a id="attendance_list">Attendance List</a></h3>
-            <h4>
-                <ul>
-                    <li>James Smith</li>
-                    <li>Maria Garcia</li>
-                    <li>Robert Johnson</li>
-                    <li>Emma Brown</li>
-                    <li>Sophia Peters</li>
-                    <li>Jacob Scott</li>
-                </ul>
-            </h4>
+            <ul>
+                <li>James Smith</li>
+                <li>Maria Garcia</li>
+                <li>Robert Johnson</li>
+                <li>Emma Brown</li>
+                <li>Sophia Peters</li>
+                <li>Jacob Scott</li>
+            </ul>
         </section>
         <section>
             <h3><a id="meeting_agenda">Meeting Agenda</a></h3>
-            <h4>
-                <ul>
-                    <li>Project Overview</li>
-                    <li>Individual Roles</li>
-                    <li>Project Timeline</li>
-                    <li>Project Details</li>
-                    <li>Discussion</li>
-                </ul>
-            </h4>
+            <ul>
+                <li>Project Overview</li>
+                <li>Individual Roles</li>
+                <li>Project Timeline</li>
+                <li>Project Details</li>
+                <li>Discussion</li>
+            </ul>
         </section>
         <section>
             <h3><a id="unfinished_business">Unfinished Business</a></h3>
             <p>We discussed the wrap-up of our most recent project, <b>Dog Walker</b>.
                 The project itself is completed, but we have not gone ahead with the rollout.
                 The plan as of now is to go <strong>early availabilty</strong> first, and eventually
-                general availabilty.
+                <span>general availabilty</span>.
                 <br>
                 <br>
                 We hope to go EA within the next <i>two</i> weeks, but have not gotten <em>confirmation</em> yet.</p>
@@ -87,14 +81,12 @@
             </details>
         </div>
         <div>
-            <h3><a id="audio">Audio</a></h3>
-            <h1>
+            <h3><a id="audio">Audio</a></h3><h1>
             <audio controls
                 src="lab-two-audio.m4a">
             </audio>
-            </h1>
         </div>
-        <span>
+        <div>
             <h3><a id="comments_questions_concerns">Comments, Questions & Concerns</a></h3>
             <form>
                 <fieldset>
@@ -110,23 +102,23 @@
                 <label for="input">What did you want to share?</label>
                 <br>
                 <input type="text" id="input">
-                <br />
+                <br>
                 <fieldset>
                     <legend>How urgent is your input?</legend>
-                    <input type="checkbox" id="urgency">
+                    <input type="checkbox" id="large-urgency">
                     <label for="urgency">Extremely  urgent</label>
-                    <input type="checkbox" id="urgency">
+                    <input type="checkbox" id="mid-urgency">
                     <label for="urgency">Somewhat urgent</label>
-                    <input type="checkbox" id="urgency">
+                    <input type="checkbox" id="no-urgency">
                     <label for="urgency">Not urgent</label>
                 </fieldset>
                 <br>
                 <label for="timeline">When do you need this input addressed by?</label>
                 <br>
                 <input type="date" id="timeline">
-                <br />
-                <label for="project-area">Which category does your input involve?</label>
-                <input list="project-area">
+                <br>
+                <label for="project">Which category does your input involve?</label>
+                <input list="project-area" name="project">
                 <datalist id="project-area">
                     <option value="Front end project details">
                     <option value="Back end project details">
@@ -134,12 +126,12 @@
                     <option value="Project Functionality">
                     <option value="Project Scope">
                 </datalist>
-                <br />
+                <br>
                 <label for="details">Anything else you wanted to include?</label>
                 <br>
                 <textarea id="details" rows="5" cols="33">
                 </textarea>
-                <br />
+                <br>
                 <label for="relation">What is your involvement with the project?</label>
                 <br>
                 <select id="relation">
@@ -148,10 +140,10 @@
                     <option value="assisting-team">Project assiting team</option>
                     <option value="curious">Just curious, not involved</option>
                 </select>
-                <br />
+                <br>
                 <button type="button">Submit</button>
             </form>
-        </span>
+        </div>
     </main>
     <footer>
         <p>Group 33 CSE 110 2022 ©</p>
