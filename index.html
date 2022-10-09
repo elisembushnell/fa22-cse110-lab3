@@ -111,8 +111,9 @@
                 <br>
                 <input type="text" id="input">
                 <br>
+                <br>
                 <fieldset>
-                    <legend>How urgent is your input?></legend>
+                    <legend>How urgent is your input?</legend>
                     <input type="checkbox" id="urgency">
                     <label for="urgency">Extremely  urgent</label>
                     <input type="checkbox" id="urgency">
@@ -120,11 +121,12 @@
                     <input type="checkbox" id="urgency">
                     <label for="urgency">Not urgent</label>
                 </fieldset>
+                <br>
                 <label for="timeline">When do you need this input addressed by?</label>
                 <br>
                 <input type="date" id="timeline">
                 <br>
-                <label for="input-type"></label>
+                <label for="input-type">Which category does your input involve?</label>
                 <input list="input-type">
                 <datalist id="input-type">
                     <option value="Front end project details">
@@ -140,12 +142,14 @@
                 </textarea>
                 <br>
                 <label for="relation">What is your involvement with the project?</label>
+                <br>
                 <select id="relation">
                     <option value="team">Project team member</option>
                     <option value="manager">Project manager</option>
                     <option value="assisting-team">Project assiting team</option>
                     <option value="curious">Just curious, not involved</option>
                 </select>
+                <br>
                 <button type="button">Submit</button>
             </form>
         </span>
