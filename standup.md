@@ -1,8 +1,8 @@
 # Standup Notes
-Date:
+**Date:**
 
 ## Team Member One
-Name:
+**Name:**
 
 1. What was worked on yesterday?
 
@@ -11,7 +11,7 @@ Name:
 3. Any issues blocking progress?
 
 ## Team Member Two
-Name:
+**Name:**
 
 1. What was worked on yesterday?
 
@@ -20,7 +20,7 @@ Name:
 3. Any issues blocking progress?
 
 ## Team Member Three
-Name:
+**Name:**
 
 1. What was worked on yesterday?
 
@@ -29,7 +29,7 @@ Name:
 3. Any issues blocking progress?
 
 ## Team Member Four
-Name:
+**Name:**
 
 1. What was worked on yesterday?
 
@@ -38,7 +38,7 @@ Name:
 3. Any issues blocking progress?
 
 ## Team Member Five
-Name:
+**Name:**
 
 1. What was worked on yesterday?
 
@@ -47,7 +47,7 @@ Name:
 3. Any issues blocking progress?
 
 ## Team Member Six
-Name:
+**Name:**
 
 1. What was worked on yesterday?
 
@@ -56,7 +56,7 @@ Name:
 3. Any issues blocking progress?
 
 ## Team Member Seven
-Name:
+**Name:**
 
 1. What was worked on yesterday?
 
@@ -65,7 +65,7 @@ Name:
 3. Any issues blocking progress?
 
 ## Team Member Eight
-Name:
+**Name:**
 
 1. What was worked on yesterday?
 
@@ -74,7 +74,7 @@ Name:
 3. Any issues blocking progress?
 
 ## Team Member Nine
-Name:
+**Name:**
 
 1. What was worked on yesterday?
 
@@ -83,7 +83,7 @@ Name:
 3. Any issues blocking progress?
 
 ## Team Member Ten
-Name:
+**Name:**
 
 1. What was worked on yesterday?
 
