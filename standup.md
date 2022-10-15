@@ -1,4 +1,4 @@
-# Standup Notes!
+# Standup Notes
 **Date:**
 
 ## Team Member One
