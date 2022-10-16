@@ -1,0 +1,113 @@
+/* css file for index.html! */
+@font-face {
+    font-family: "Josefin_Sans";
+    src: url("Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf")
+    format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    color: hsl(273, 100, 81);
+    border-radius: 5 px;
+    text-align: center;
+    display: none;
+    max-width: 50 px;
+    min-width: 5 px;
+    position: relative;
+}
+
+.section-headers {
+    color: rgb(255, 192, 203);
+    width: 200px;
+    font-size: 10 lvw;
+    margin: auto;
+    border-style: dashed groove;
+    text-decoration: underline;
+    display: inline;
+    position: sticky;
+    font-family: "Josefin_Sans";
+}
+
+#unfinished_business {
+    color: #90cc22;
+    height: 2 in;
+    font-size: 10 vw;
+    display: block;
+    margin-top: .5 in;
+    padding-left: 1 cm;
+    border-width: 5px;
+}
+
+#new_business {
+    color: #90cc22;
+    width: 5 cm;
+    font-size: 15 svw;
+    display: inline-block;
+    margin: 20 px;
+    padding: 0 in 0 in 1 in;
+    border-color: cornflowerblue;
+}
+
+a:link {
+    color: honeydew;
+}
+
+button:hover {
+    color: lightcoral;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex-grow: 4;
+    flex-shrink: 2;
+    flex-basis: 10 px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: auto;
+}
+
+.grid-item {
+    grid-area: main;
+}
+
+@media (mid-width: 15px) {
+    div {
+        background: azure;
+    }
+}
+
+p, h3 {
+    background-color: lavenderblush;
+}
+
+a[class~="relation"] {
+    /* make sure CLASS EXISTS*/
+    padding: 2 px;
+}
+
+p em {
+    font-size: larger;
+}
+
+span > p {
+    background-color: darkkhaki;
+}
+
+il + p {
+    font-size: larger;
+}
+
+div ~ strong {
+    background-color: azure;
+}
+
+strong.unfinished_business {
+    font-size: x-large;
+}
