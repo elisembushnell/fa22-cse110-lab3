@@ -7,7 +7,7 @@
     font-style: normal;
 }*/
 
-* {
+/** {
     color: hsl(273, 100, 81);
     border-radius: 5 px;
     text-align: center;
@@ -26,7 +26,7 @@
     text-decoration: underline;
     display: inline;
     position: sticky;
-    /*font-family: "Josefin_Sans";*/
+    /*font-family: "Josefin_Sans";
 }
 
 #unfinished_business {
