@@ -57,17 +57,18 @@ button:hover {
     color: lightcoral;
 }
 
-/*.flex-container {
+.flex-container {
     display: flex;
+    flex-direction: column;
 }
 
 .flex-item {
-    flex-grow: 4;
-    flex-shrink: 2;
-    flex-basis: 10 px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
 }
 
-.grid-container {
+/*.grid-container {
     display: grid;
     grid-template-columns: 50px 50px 50px 50px;
     grid-template-rows: auto;
