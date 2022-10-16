@@ -15,7 +15,7 @@
     max-width: 50 px;
     min-width: 5 px;
     position: relative;
-}
+}*/
 
 .section-headers {
     color: rgb(255, 192, 203);
@@ -26,11 +26,11 @@
     text-decoration: underline;
     display: inline;
     position: sticky;
-    /*font-family: "Josefin_Sans";
-}*/
+    /*font-family: "Josefin_Sans";*/
+}
 
 #unfinished_business {
-    color: #90cc22;
+    color: #405d09;
     height: 2 in;
     font-size: 10 vw;
     display: block;
@@ -40,16 +40,16 @@
 }
 
 #new_business {
-    color: #90cc22;
+    color: #405d09;
     width: 5 cm;
     font-size: 15 svw;
     display: inline-block;
     margin: 20 px;
     padding: 0 in 0 in 1 in;
-    border-color: cornflowerblue;
+    border-color: rgb(84, 110, 158);
 }
 
-/*a:link {
+a:link {
     color: honeydew;
 }
 
@@ -57,7 +57,7 @@ button:hover {
     color: lightcoral;
 }
 
-.flex-container {
+/*.flex-container {
     display: flex;
 }
 
