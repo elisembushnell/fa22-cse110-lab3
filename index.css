@@ -1,11 +1,11 @@
 /* css file for index.html! */
-@font-face {
+/*@font-face {
     font-family: "Josefin_Sans";
     src: url("Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf")
     format("ttf");
     font-weight: normal;
     font-style: normal;
-}
+}*/
 
 * {
     color: hsl(273, 100, 81);
@@ -26,7 +26,7 @@
     text-decoration: underline;
     display: inline;
     position: sticky;
-    font-family: "Josefin_Sans";
+    /*font-family: "Josefin_Sans";*/
 }
 
 #unfinished_business {
@@ -49,7 +49,7 @@
     border-color: cornflowerblue;
 }
 
-a:link {
+/*a:link {
     color: honeydew;
 }
 
@@ -88,7 +88,7 @@ p, h3 {
 }
 
 a[class~="relation"] {
-    /* make sure CLASS EXISTS*/
+    /* make sure CLASS EXISTS
     padding: 2 px;
 }
 
@@ -110,4 +110,4 @@ div ~ strong {
 
 strong.unfinished_business {
     font-size: x-large;
-}
+}*/
