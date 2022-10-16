@@ -9,6 +9,9 @@
     <style>
     body {background-color: lightsteelblue;}
     </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -29,27 +32,29 @@
         </ol>
     </nav>
     <main>
-        <section>
-            <h3><a id="attendance_list">Attendance List</a></h3>
-            <ul>
-                <li>James Smith</li>
-                <li>Maria Garcia</li>
-                <li>Robert Johnson</li>
-                <li>Emma Brown</li>
-                <li>Sophia Peters</li>
-                <li>Jacob Scott</li>
-            </ul>
-        </section>
-        <section>
-            <h3><a id="meeting_agenda" class="section-headers">Meeting Agenda</a></h3>
-            <ul>
-                <li>Project Overview</li>
-                <li>Individual Roles</li>
-                <li>Project Timeline</li>
-                <li>Project Details</li>
-                <li>Discussion</li>
-            </ul>
-        </section>
+        <div class="grid-container">
+            <div class="grid-item1">
+                <h3><a id="attendance_list">Attendance List</a></h3>
+                <ul>
+                    <li>James Smith</li>
+                    <li>Maria Garcia</li>
+                    <li>Robert Johnson</li>
+                    <li>Emma Brown</li>
+                    <li>Sophia Peters</li>
+                    <li>Jacob Scott</li>
+                </ul>
+            </div>
+            <div class="grid-item2">
+                <h3><a id="meeting_agenda" class="section-headers">Meeting Agenda</a></h3>
+                <ul>
+                    <li>Project Overview</li>
+                    <li>Individual Roles</li>
+                    <li>Project Timeline</li>
+                    <li>Project Details</li>
+                    <li>Discussion</li>
+                </ul>
+            </div>
+        </div>
         <section>
             <h3><a id="unfinished_business">Unfinished Business</a></h3>
             <p>We discussed the wrap-up of our most recent project, <b>Dog Walker</b>.
@@ -140,7 +145,7 @@
                 <br>
                 <label for="relation">What is your involvement with the project?</label>
                 <br>
-                <select id="relation">
+                <select id="relation" class="relation">
                     <option value="team">Project team member</option>
                     <option value="manager">Project manager</option>
                     <option value="assisting-team">Project assiting team</option>
