@@ -1,51 +1,44 @@
 /* css file for index.html! */
-/*@font-face {
-    font-family: "Josefin_Sans";
-    src: url("Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf")
-    format("ttf");
-    font-weight: normal;
-    font-style: normal;
-}*/
 
 * {
     color: hsl(273, 100%, 81%);
     text-align: center;
-    display: none;
     position: relative;
+    font-family: 'Roboto Slab', serif;
 }
 
 .section-headers {
     color: rgb(255, 192, 203);
     width: 200px;
-    font-size: 10 lvw;
+    font-size: 10lvw;
     margin: auto;
     border-style: dashed groove;
-    border-radius: 5 px;
+    border-radius: 5px;
     text-decoration: underline;
     display: inline;
     position: sticky;
-    max-width: 350 px;
-    min-width: 50 px;
-    /*font-family: "Josefin_Sans";*/
+    max-width: 350px;
+    min-width: 50px;
+    font-family: 'Roboto Slab', serif;
 }
 
 #unfinished_business {
     color: #405d09;
-    height: 2 in;
-    font-size: 10 vw;
+    height: .5in;
+    font-size: 3vw;
     display: block;
-    margin-top: .5 in;
-    padding-left: 1 cm;
-    border-width: 5px;
+    margin-top: .5in;
+    padding-left: 2cm;
+    border-width: 10px;
 }
 
 #new_business {
     color: #405d09;
-    width: 5 cm;
-    font-size: 15 svw;
+    width: 5cm;
+    font-size: 20svw;
     display: inline-block;
-    margin: 20 px;
-    padding: 0 in 0 in 1 in;
+    margin: 5px;
+    padding: 0in 0in .25in;
     border-color: rgb(84, 110, 158);
 }
 
@@ -68,17 +61,21 @@ button:hover {
     flex-basis: auto;
 }
 
-/*.grid-container {
+.grid-container {
     display: grid;
-    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-columns: 250px 250px 250px 250px;
     grid-template-rows: auto;
 }
 
-.grid-item {
-    grid-area: main;
+.grid-item1 {
+    grid-column: 2;
 }
 
-/*@media (mid-width: 15px) {
+.grid-item2 {
+    grid-column: 3;
+}
+
+@media (mid-width: 15px) {
     div {
         background: azure;
     }
@@ -89,8 +86,7 @@ p, h3 {
 }
 
 a[class~="relation"] {
-    /* make sure CLASS EXISTS
-    padding: 2 px;
+    padding: 10px;
 }
 
 p em {
@@ -111,4 +107,4 @@ div ~ strong {
 
 strong.unfinished_business {
     font-size: x-large;
-}*/
+}
