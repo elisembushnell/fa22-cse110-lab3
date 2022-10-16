@@ -12,8 +12,6 @@
     border-radius: 5 px;
     text-align: center;
     display: none;
-    max-width: 50 px;
-    min-width: 5 px;
     position: relative;
 }
 
@@ -26,6 +24,8 @@
     text-decoration: underline;
     display: inline;
     position: sticky;
+    max-width: 350 px;
+    min-width: 50 px;
     /*font-family: "Josefin_Sans";*/
 }
 
@@ -57,7 +57,7 @@ button:hover {
     color: lightcoral;
 }
 
-.flex-container {
+/*.flex-container {
     display: flex;
 }
 
