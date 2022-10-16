@@ -7,7 +7,7 @@
     font-style: normal;
 }*/
 
-/** {
+* {
     color: hsl(273, 100, 81);
     border-radius: 5 px;
     text-align: center;
@@ -15,7 +15,7 @@
     max-width: 50 px;
     min-width: 5 px;
     position: relative;
-}*/
+}
 
 .section-headers {
     color: rgb(255, 192, 203);
@@ -57,7 +57,7 @@ button:hover {
     color: lightcoral;
 }
 
-/*.flex-container {
+.flex-container {
     display: flex;
 }
 
@@ -77,7 +77,7 @@ button:hover {
     grid-area: main;
 }
 
-@media (mid-width: 15px) {
+/*@media (mid-width: 15px) {
     div {
         background: azure;
     }
